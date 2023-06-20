@@ -6,7 +6,7 @@ provider:
   runtime: python3.9
 
 functions:
-  hello:
+  firstFunction:
     handler: handler.hello
     events:
       - httpApi:
